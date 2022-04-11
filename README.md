@@ -1,1 +1,1 @@
-Learning about programming with C
+My variables readme
