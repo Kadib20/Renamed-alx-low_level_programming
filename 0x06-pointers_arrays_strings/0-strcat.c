@@ -1,26 +1,27 @@
-#include main.h
+#include "main.h"
 
 /**
- *to concatenate two strings
- *appends the src string to the dest string
- *returns a pointer to dest
+ * *_strcat - function commute srtings (dest and src)
+ * Return: return value of dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int x = 0;
-	int y = 0;
+	int x;
+	int y;
+
+	x = 0;
+	y = 0;
 
 	while (dest[x] != '\0')
 	{
-		x++
+		x++;
 	}
 	while (src[y] != '\0')
 	{
 		dest[x] = src[y];
-		y++
-		x++;
 		y++;
+		x++;
 	}
 
 	dest[x] = '\0';
