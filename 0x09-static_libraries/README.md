@@ -1,1 +1,2 @@
-Into static libraries
+#!/bin/bash
+I'm into static libraries
